@@ -8,6 +8,7 @@ import Contact from "./Components/contact/Contact";
 import "./app.scss" 
 import { useState } from 'react';
 
+
 const App=()=> {
   const [menuOpen,setMenuOpen]=useState(false);
   return (
