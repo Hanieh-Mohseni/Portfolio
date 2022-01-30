@@ -1,5 +1,6 @@
 import React from 'react';
 import './intro.scss';
+import Typical from "react-typical" 
 
 const Intro=()=> {
   return(
@@ -12,9 +13,50 @@ const Intro=()=> {
          </div>
          <div className='right'>
            <div className='wrapper'>
-             <h2>Hi There, I'm</h2>
-             <h1>Hanih Mohseni</h1>
-             <h3>Full-Stack Web Developer</h3>
+             
+             {/* <div className="itemContainer">
+            <div className="icon">
+              <a href="https://github.com/Hanieh-Mohseni">
+              <i class="fab fa-github"></i>
+              </a>
+            </div>
+            <div className="icon">
+              <a href="https://www.linkedin.com/in/haniehmohseni/">
+              <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+            <div className="icon">
+              <a href="https://www.youtube.com/channel/UCre2tSLgggTKcRrIOINw0OQ">
+              <i class="fab fa-youtube"></i>
+              </a>
+            </div>
+          </div>  */}
+             
+             <h2>Hello, I'm</h2>
+             <h1>Hanieh Mohseni</h1>
+             <div className="typicalText">
+               <h4>Full-stack Web Developer</h4>
+               <h4>Greater Montreal Metropolitan Area</h4>
+
+
+          <span className="skills">
+            <h4>
+          <Typical
+          loop={Infinity}
+          steps={[
+            "React.js, Node.js, MongoDB, Rest APIs, GitHub",
+            1000,
+            "2021 Graduate",
+            1000,
+        
+          ]}
+                    
+          />
+          </h4>
+
+          </span>
+          
+        </div>
            </div>
 
          </div>

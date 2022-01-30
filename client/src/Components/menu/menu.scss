@@ -24,19 +24,20 @@
         list-style: none;
         font-size: 30px;
         font-weight: 300;
-        color: white;
+        color: #ffd126;
         width: 60%;
 
         li{
             margin-bottom: 25px;
-            color:white;
+            color:#ffd126;
+            font-weight: 400;
             a{
                 font-size: inherit;
                 color: inherit;
                 text-decoration: none;
             }
             &:hover{
-                font-weight: 500;
+                font-weight: 600;
             }
 
            

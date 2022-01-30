@@ -12,10 +12,10 @@ const Menu=({menuOpen, setMenuOpen})=> {
               <a href='#portfolio'>Profile</a>
           </li>
           <li onClick={()=>setMenuOpen(false)}>
-              <a href='#works'>Works</a>
+              <a href='#works'>Resume</a>
           </li>
           <li onClick={()=>setMenuOpen(false)}>
-              <a href='#testimonials'>Testimonials</a>
+              <a href='#testimonials'>Award</a>
           </li>
           <li onClick={()=>setMenuOpen(false)}>
               <a href='#contact'>Contact</a>

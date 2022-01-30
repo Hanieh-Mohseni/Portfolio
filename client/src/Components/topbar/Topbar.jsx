@@ -7,22 +7,27 @@ const Topbar = ({menuOpen,setMenuOpen}) => {
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">
-            Logo
+          <img src='assets/logo.png' alt=''/>
           </a>
           <div className="itemContainer">
             <div className="icon">
               <a href="https://github.com/Hanieh-Mohseni">
-                <i class="fab fa-github-square"></i>
+              <i class="fab fa-github"></i>
               </a>
             </div>
+            </div>
+            
+            <div className="itemContainer">
             <div className="icon">
               <a href="https://www.linkedin.com/in/haniehmohseni/">
-                <i class="fab fa-linkedin"></i>
+              <i class="fab fa-linkedin-in"></i>
               </a>
             </div>
+            </div>
+            <div className="itemContainer">
             <div className="icon">
               <a href="https://www.youtube.com/channel/UCre2tSLgggTKcRrIOINw0OQ">
-                <i class="fab fa-youtube-square"></i>
+              <i class="fab fa-youtube"></i>
               </a>
             </div>
           </div>
