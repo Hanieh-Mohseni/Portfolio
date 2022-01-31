@@ -3,7 +3,7 @@
     display: flex;
 
     .left{
-        flex: 0.3;
+        flex: 0.4;
         overflow: hidden;
 
 
@@ -17,20 +17,22 @@
             justify-content: center;
             float: right;
             margin-top: 100px;
-            border-color: #f2767a;
+            
            
 
             img{
                 height: 90%;
+                background-color: #ffd126;
             }
         }
         
     }
 
     .right{
-        flex: 0.7;
+        flex: 0.6;
         color:white;
         align-items: center;
+        position: relative;
         
 
         .wrapper{
@@ -70,15 +72,39 @@
 
                 h3{
                     font-size: 30px;
-                    font-weight: 450;
+                    font-weight: 500;
                     color:#214150;
                 }
 
                 h4{
                     font-size: 20px;
-                    font-weight: 400;
+                    font-weight: 500;
                     color:#214150;
+                    span{
+                        font-size: inherit;
+                        color:#ffd126;
+                    }
                 }
+            }
+
+                a{
+                    position: absolute;
+                    bottom: 30px;
+                    left:20%;
+
+
+                    img{
+                        width: 100px;
+                        animation: arrowBlink 2s infinite;
+                    }
+
+                    @keyframes arrowBlink {
+                        100%{
+                            opacity: 0;
+                        }
+                        
+                    }
+               
 
         }
 

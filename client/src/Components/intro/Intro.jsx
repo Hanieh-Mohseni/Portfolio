@@ -9,7 +9,6 @@ const Intro=()=> {
            <div className='imgContainer'>
              <img src='assets/Myphoto.png' alt=''/>
            </div>
-
          </div>
          <div className='right'>
            <div className='wrapper'>
@@ -35,7 +34,7 @@ const Intro=()=> {
              <h2>Hello, I'm</h2>
              <h1>Hanieh Mohseni</h1>
              <div className="typicalText">
-               <h4>Full-stack Web Developer</h4>
+               <h4>Full-stack <span> Web Developer</span></h4>
                <h4>Greater Montreal Metropolitan Area</h4>
 
 
@@ -58,6 +57,10 @@ const Intro=()=> {
           
         </div>
            </div>
+
+           <a href='#portfolio'>
+             <img src='assets/down.png' alt=''/> 
+           </a>
 
          </div>
        </div>
