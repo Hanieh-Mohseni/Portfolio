@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ResumeSkills=()=> {
-  return <div></div>;
+  return <div className='skills'></div>;
 }
 
 export default ResumeSkills;

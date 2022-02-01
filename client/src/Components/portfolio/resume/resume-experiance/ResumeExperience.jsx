@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ResumeExperience=()=> {
-  return <div></div>;
+  return <div className='resumeExperience'>Experience</div>;
 }
 
 export default ResumeExperience;
