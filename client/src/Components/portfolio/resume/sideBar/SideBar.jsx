@@ -1,8 +1,8 @@
-import React from 'react';
-import "./sideBar.scss"
+import React from "react";
+import "./sideBar.scss";
 
-const SideBar=()=> {
-  return <div className='sidebar'>SSSSS</div>;
-}
+const SideBar = () => {
+  return <div className="sidebar">SSSSS</div>;
+};
 
 export default SideBar;

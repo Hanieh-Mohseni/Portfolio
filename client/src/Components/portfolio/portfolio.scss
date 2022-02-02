@@ -1,28 +1,23 @@
 .portfolio{
-    background-color: #f9f4fb;
-   
-    .leftRight{
-        display: flex;
-        flex-direction: column;
-    }
-   
-    .resumeSection{
-        width: 70%;
-        background-color: darkred;
-        position: relative;
-        top:130px;
+    height: 100vh;
+    height: calc(100vh - 130px);
+    overflow: hidden;
 
-        >*{
-            width: 70vw;
-            height: calc(100vh -70px);
 
-        }
-        
+
+        // .sidBar{
+        //     display: inline-block;
+
+        //     top:130;
+        //     left:0;
+        //     height: calc(100vh - 130px);
+
+                
+
+            
+        // }
 
     }
      
 
 
-
-
-}
