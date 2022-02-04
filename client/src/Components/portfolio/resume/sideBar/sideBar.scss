@@ -5,4 +5,55 @@
     height: calc(100vh - 130px);
 
 
+   
+
+       
+
+    .Lbar{
+        display: inline-block;
+        position: absolute;
+        width: 40px;
+        height: 400px;
+        margin-left: 45px;
+        margin-top: 50px;
+        background-color: black;
+ 
+    }
+
+    .LbarItems{
+        display: inline-block;
+        position: absolute;
+        margin-left: 110px;
+        margin-top: 120px;
+
+        .item{
+           
+            margin-top: 30px;
+            margin-left: 5px;
+
+            .icon{
+                z-index: 20;
+                color: white;
+                margin-right: 10px;
+            }
+        }
+
+      }
+
+    .Rbar{
+        display: inline-block;
+        position: absolute;
+        width: 4px;
+        height: 400px;
+        background-color: #b0b3c7;
+        margin-left: 350px;
+        margin-top: 50px;
+        border-radius: 10px;
+        -webkit-box-shadow:1px 0px 0px #0f0f0f;
+        -moz-box-shadow:1px 1px 1px #646464;
+         box-shadow:1px 1px 1px #a7a1a1;
+
+    }
 }
+
+

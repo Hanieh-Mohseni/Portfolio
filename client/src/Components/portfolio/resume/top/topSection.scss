@@ -1,6 +1,50 @@
 .topSection{
-    background-color:rgb(134, 39, 182);
-    height: 60px;
+    background-color:#f9f4fb;
+    height: 70px;
+    top: 70px;
+    overflow: hidden;
+
+    .topAllLine{
+        display:flex;
+        width: 180px;
+        height: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 600px;
+        margin-top: 10px;
+        align-items: center;
+        
+
+        .line{
+            width: 90%;
+            height: 2px;
+            background-color: #6b6d7a;
+            border-radius: 10px;
+            
+        }
+
+        .upline{
+            position: relative;
+            top: 5px;;
+            background-color: #fa4f24;
+            width: 15%;
+            height: 8px;
+            z-index: 8;
+            border-radius: 10px;
+
+        }
+
+        .titr{
+            font-weight: 700;
+            font-size: 26px;
+        }
+            
+        .subTitr{
+            font-size: 13px;
+        }
+            
+        }
+    }
 
     
-}

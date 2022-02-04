@@ -9,7 +9,9 @@ import ResumeEducation from "./resumeParts/resume-education/ResumeEducation";
 
 function ResumeSections() {
   return (
+    
     <div className="resumeSections">
+     
       <ResumeEducation />
       <ResueExperience />
       <ResumeProjects />
