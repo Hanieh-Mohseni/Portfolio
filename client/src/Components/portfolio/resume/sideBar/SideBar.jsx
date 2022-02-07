@@ -1,44 +1,49 @@
 import React from "react";
 import "./sideBar.scss";
+import { useState } from "react";
 
 const SideBar = () => {
+
+  
+
+
   return (
     <div className="sidebar">
       <span className="Lbar"></span>
       <div className="LbarItems">
-        <div className="item">
+        <div className= "item">
           <span className="icon">
             <i class="fas fa-graduation-cap"></i>
           </span>
-          Education
+          <a href="#resumeEducation">Education</a>
         </div>
         <div className="item">
           <span className="icon">
             <i class="fas fa-history"></i>
           </span>
-          Experiance
+          <a href="#resumeExperience">Experiance</a>
         </div>
         <div className="item">
           <span className="icon">
             <i class="fas fa-project-diagram"></i>
           </span>
-          Projects
+          <a href="#project">Projects</a>
         </div>
         <div className="item">
           <span className="icon">
             <i class="fas fa-tools"></i>
           </span>
-          Skills
+          <a href="#skills">Skills</a>
         </div>
         <div className="item">
           <span className="icon">
             <i class="fas fa-id-badge"></i>
           </span>
-          Certifications
+          <a href="#resumeCertificate">Certifications</a>
         </div>
       </div>
 
-      <span className="Rbar"></span>
+      {/* <span className="Rbar"></span> */}
     </div>
   );
 };

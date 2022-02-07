@@ -1,17 +1,21 @@
 .resumeSections{
     display: inline-block;
+    margin-left: 80px;
+    margin-top: 0px;
+   
     color: black;
     right: 0;
     top:130;
-    height: calc(100vh - 130px);
+    height: calc(100vh - 190px);
     width: 70%;
-    background-color: rgb(26, 37, 192);
+    background-color:#f9f4fb;
     overflow: hidden;
     scroll-snap-type: y mandatory;
     scrollbar-width: none;
     scroll-behavior: smooth;
     &::-webkit-scrollbar{
     display: none;
+
     }
     
 

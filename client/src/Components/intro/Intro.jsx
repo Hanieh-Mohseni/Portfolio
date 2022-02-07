@@ -13,28 +13,10 @@ const Intro=()=> {
          <div className='right'>
            <div className='wrapper'>
              
-             {/* <div className="itemContainer">
-            <div className="icon">
-              <a href="https://github.com/Hanieh-Mohseni">
-              <i class="fab fa-github"></i>
-              </a>
-            </div>
-            <div className="icon">
-              <a href="https://www.linkedin.com/in/haniehmohseni/">
-              <i class="fab fa-linkedin-in"></i>
-              </a>
-            </div>
-            <div className="icon">
-              <a href="https://www.youtube.com/channel/UCre2tSLgggTKcRrIOINw0OQ">
-              <i class="fab fa-youtube"></i>
-              </a>
-            </div>
-          </div>  */}
-             
-             <h2>Hello, I'm</h2>
+            <h2>Hello, I'm</h2>
              <h1>Hanieh Mohseni</h1>
              <div className="typicalText">
-               <h4>Full-stack <span> Web Developer</span></h4>
+               <h4>Software Engineer | <span> Full Stack Web Developer </span>| E-content Developer</h4>
                <h4>Greater Montreal Metropolitan Area</h4>
 
 

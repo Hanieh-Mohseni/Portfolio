@@ -1,3 +1,41 @@
 .resumeExperience{
-    background-color:forestgreen
-}
+width: 100%;
+
+    .partTitr{
+        
+        display: inline-block;
+        font-weight: 700;
+        font-size: 26px;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+
+    }
+
+    .icon{
+        display: inline-block;
+        overflow: hidden;
+        background-color: #ffd126;
+        border-radius: 20px;
+        width: 160px;
+        height: 30px;
+        align-content: right;
+        color: black;
+        font-size: 16px;
+        margin-left: 700px;
+        margin-top: -10px;
+        
+        
+
+        .dateSpan{
+            margin-left: 10px;
+            margin-right: 10px;
+
+align-items: center;  
+justify-content: center;  
+
+           
+        }
+
+    
+}}
