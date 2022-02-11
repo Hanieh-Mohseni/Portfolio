@@ -20,7 +20,7 @@ const Intro=()=> {
                <h4>Greater Montreal Metropolitan Area</h4>
 
 
-          <span className="skills">
+          <span className="Myskills">
             <h4>
           <Typical
           loop={Infinity}

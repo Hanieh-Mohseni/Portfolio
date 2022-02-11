@@ -25,12 +25,6 @@ const SideBar = () => {
         </div>
         <div className="item">
           <span className="icon">
-            <i class="fas fa-project-diagram"></i>
-          </span>
-          <a href="#project">Projects</a>
-        </div>
-        <div className="item">
-          <span className="icon">
             <i class="fas fa-tools"></i>
           </span>
           <a href="#skills">Skills</a>
@@ -40,6 +34,12 @@ const SideBar = () => {
             <i class="fas fa-id-badge"></i>
           </span>
           <a href="#resumeCertificate">Certifications</a>
+        </div>
+        <div className="item">
+          <span className="icon">
+          <i class="fa-solid fa-earth-americas"></i>
+          </span>
+          <a href="#languages">Languages</a>
         </div>
       </div>
 

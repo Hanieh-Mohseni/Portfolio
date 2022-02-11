@@ -1,18 +1,19 @@
 import React from 'react';
 import "./works.scss";
 import ProjectList from '../projectList/ProjectList';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import {webAppsProjects,ElearningProjects} from '../../data';
 
 const Works=()=> {
 
   const list=[
     {
-      id:"titr1",
-      title:"titr1",
+      id:"WebApps",
+      title:"WebApps",
     },
       {
-        id:"titr2",
-        title:"titr2",
+        id:"Elearning Projects",
+        title:"Elearning Projects",
       },
       {
         id:"titr3",
@@ -30,6 +31,21 @@ const Works=()=> {
 
 
    const [selected, setSelected]=useState("titr1");
+   const [data, setData]=useState([]);
+
+   useEffect(()=>{
+     switch(selected){
+       case "WebApps":
+       setData(webAppsProjects);
+       break;
+       case "Elearning Projects":
+       setData(ElearningProjects);
+       break;
+       default:
+         setData(webAppsProjects);
+     } 
+
+   },[selected]);
 
   return(
        <div className='works' id="works">
@@ -41,29 +57,15 @@ const Works=()=> {
             
             </ul>
             <div className="container">
+              {data.map((d)=>(
               <div className="item">
                 <img
-                src= 'assets/Final-Project.png' alt=''/>
-                <h3>Nations Recipe App</h3>
+                src= {d.img}
+                 alt=''/>
+                <h3>{d.title}</h3>
               </div>
-
-              <div className="item">
-                <img
-                src= 'assets/Final-Project.png' alt=''/>
-                <h3>Nations Recipe App</h3>
-              </div>
-
-              <div className="item">
-                <img
-                src= 'assets/Final-Project.png' alt=''/>
-                <h3>Nations Recipe App</h3>
-              </div>
-
-              <div className="item">
-                <img
-                src= 'assets/Final-Project.png' alt=''/>
-                <h3>Nations Recipe App</h3>
-              </div>
+              ))}
+ 
               
             </div>
 

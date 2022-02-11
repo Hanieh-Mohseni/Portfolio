@@ -1,8 +1,8 @@
-.projectList{
+.skillsList{
     font-size: 14px;
     margin-right: 5px;
     padding: 7px;
-    border-radius: 10px;
+    border-radius: 0 10px 10px 0;
     display: flex;
     cursor: pointer;
     transition: all .5s ease;
@@ -14,3 +14,5 @@
         color:white;
     }
 }
+
+
