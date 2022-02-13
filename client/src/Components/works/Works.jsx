@@ -15,18 +15,7 @@ const Works=()=> {
         id:"Elearning Projects",
         title:"Elearning Projects",
       },
-      {
-        id:"titr3",
-        title:"titr3",
-      },
-      {
-        id:"titr4",
-        title:"titr4",
-      },
-      {
-        id:"titr5",
-        title:"titr5",
-      },
+      
    ];
 
 
