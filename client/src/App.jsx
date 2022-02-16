@@ -4,10 +4,12 @@ import Intro from './Components/intro/Intro';
 import Portfolio from "./Components/portfolio/Portfolio";
 import Works from "./Components/works/Works";
 import Awards from "./Components/awards/Awards";
-import Contact from "./Components/contact/Contact";
+// import Contact from "./Components/contact/Contact";
 import "./app.scss" 
 import { useState } from 'react';
 import Menu from './Components/menu/Menu';
+import ContactForm from './Components/contact/ContactForm';
+
 
 
 const App=()=> {
@@ -21,7 +23,7 @@ const App=()=> {
         <Portfolio/>
         <Works/>
         <Awards/>
-        <Contact/>
+        <ContactForm/>
       </div>
      </div>
   );
