@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./contact.css";
 
 const ContactForm = () => {
   const [status, setStatus] = useState("Submit");
@@ -23,23 +24,53 @@ const ContactForm = () => {
     alert(result.status);
   };
   return (
+    <div className="Contact" id="contact">
+        <div className="Content">
+           <h2>Contact Us</h2>
+           <p>If you've got a project in mind, why not get in touch. Always available for freelancing, let's work together!</p>
+        </div>
+        <div className="Container">
+            <div className="ContainerInfo">
+                <div className="box">
+                    <div className="Icon"> <i class="fa-solid fa-location-dot"></i></div>
+                    <div className="text">
+                        <h3>Address</h3>
+                        <p>Brossard, QC</p>
+                    </div>
+                </div>
 
-    <div className="contact"  id="contact">
-    <form onSubmit={handleSubmit}>
-      <div>
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" required />
-      </div>
-      <div>
-        <label htmlFor="email">Email:</label>
-        <input type="email" id="email" required />
-      </div>
-      <div>
-        <label htmlFor="message">Message:</label>
-        <textarea id="message" required />
-      </div>
-      <button type="submit">{status}</button>
-    </form>
+                <div className="box">
+                    <div className="Icon"><i class="fa-solid fa-envelope"></i></div>
+                    <div className="text">
+                        <h3>Email</h3>
+                        <p>Mohseni.Hanieh@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+       
+    
+            
+
+       <div className="contactForm">
+          <form onSubmit={handleSubmit}>
+              <h2>Send Message</h2>
+            <div className="inputBox">
+              <input type="text" id="name" required />
+              <label htmlFor="name">Name</label>            </div>
+            <div className="inputBox">
+              <input type="email" id="email" required />
+              <label htmlFor="email">Email</label>
+            </div>
+            <div className="inputBox">
+              <textarea id="message" required />
+              <label htmlFor="message">Type Your Message</label>
+            </div>
+            <button type="submit">{status}</button>
+          </form>
+          </div>
+          </div>
+       
+     
     </div>
   );
 };

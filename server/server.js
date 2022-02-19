@@ -40,7 +40,7 @@ const contactEmail = nodemailer.createTransport({
   service: 'gmail',
   auth: {
     user: "Hani.Portfolio.Nodmailer@gmail.com",
-    pass: "",
+    pass: "Alonestar",
   },
 });
 

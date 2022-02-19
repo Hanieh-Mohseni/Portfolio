@@ -5,7 +5,8 @@ import ResueExperience from "./resumeParts/resume-experiance/ResumeExperience";
 import ResumeSkills from "./resumeParts/resume-skills/ResumeSkills";
 import ResumeLanguages from "./resumeParts/resume-languages/ResumeLanguages";
 import ResumeEducation from "./resumeParts/resume-education/ResumeEducation";
-import ResumeCertifications from "./resumeParts/certification/ResumeCertifications"
+import ResumeCertifications from "./resumeParts/certification/ResumeCertifications";
+import Interest from "./resumeParts/resumeInterest/Interest";
 
 function ResumeSections() {
 
@@ -19,6 +20,7 @@ function ResumeSections() {
       <ResumeSkills />
       <ResumeLanguages />
       <ResumeCertifications />
+      <Interest/>
       
     </div>
   );

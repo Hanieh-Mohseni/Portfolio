@@ -77,9 +77,9 @@ export const WebDevelopment = [
   {
     id: 1,
     title1: "Frontend",
-    subtitle1: "HTML, CSS, JavaScript, React.js",
+    subtitle1: "HTML, CSS, JavaScript, React.js, TypeScript",
     title2: "Backend:",
-    subtitle2: "Node.js, Express.js, MongoDB, Python",
+    subtitle2: "Node.js, Express.js, MongoDB",
   },
 
  
@@ -89,7 +89,7 @@ export const SoftwareDevelopment = [
   {
     id: 2,
     title1: "Programming Languages",
-    subtitle1: " C/C++, Python",
+    subtitle1: " C/C++, Python" ,
     title2: "Database Management",
     subtitle2: "SQL",
   },
@@ -103,15 +103,9 @@ export const ElearningAndMultimedia = [
       "Articulate storyline, Adobe Captivate, Camtasia, Lectora Inspire",
     title2: "Learning Management System (LMS)",
     subtitle2: "Moodle",
-    title3: "Image Edition",
-    subtitle3: "Adobe Photoshop (Professional), Adobe Illustrator",
-    title4: "Sound Edition",
-    subtitle4: " Cool Edit pro, Sound Forge",
-    title5: "Video Edition:",
-    subtitle5:
-      "Adobe Premier, Xilisoft Movie Maker, Ifilm, Xilisoft Video Editor",
-    title6: "Capturing Software",
-    subtitle6: " BB Flashback, Capture it, Camtasia, etc.",
+    title3: "Image, Sound, Video Edition",
+    subtitle3: "Adobe Photoshop (Professional), Adobe Illustrator, Cool Edit pro, Sound Forge, Adobe Premier, Movie Maker",
+ 
   },
 ];
 
