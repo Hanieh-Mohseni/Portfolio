@@ -10,6 +10,7 @@ const cors = require("cors");
 const router = express.Router();
 
 
+
 const app = express();
 app.use(cors());
 app.use(express.json());
@@ -36,13 +37,18 @@ express()
 
 // setting Nodmailer with gmail
 
-const contactEmail = nodemailer.createTransport({
-  service: 'gmail',
-  auth: {
-    user: "Hani.Portfolio.Nodmailer@gmail.com",
-    pass: "Alonestar",
-  },
-});
+var smtpTransport = require('nodemailer-smtp-transport');
+
+var contactEmail = nodemailer.createTransport(smtpTransport({
+    service: 'gmail',
+    auth: {
+        user: 'Hani.Portfolio.Nodmailer@gmail.com', // my mail
+        pass: 'Alonestar'
+    }
+}));
+
+
+
 
 contactEmail.verify((error) => {
   if (error) {
