@@ -16,8 +16,8 @@ const Intro = () => {
           <h1>Hanieh Mohseni</h1>
           <div className="typicalText">
             <h4>
-              Software Engineer | <span> Full Stack Web Developer </span>|
-              E-content Developer
+            Software Engineer | <span> Full-Stack Java Developer </span>|
+            Software Developer
             </h4>
             <h4>Greater Montreal Metropolitan Area</h4>
 
@@ -26,10 +26,10 @@ const Intro = () => {
                 <Typical
                   loop={Infinity}
                   steps={[
-                    "React.js, Node.js, MongoDB, Rest APIs, GitHub",
-                    1000,
-                    "2021 Graduate",
-                    1000,
+                    "About Me",
+                    500,
+                    "About Me",
+                    500,
                   ]}
                 />
               </h4>
@@ -39,21 +39,19 @@ const Intro = () => {
             </div>
             <div className="Discrip">
             <h6>
-            Graduated from the University of Concordia in Full Stack Web
-              development
+            Bachelor's degree in Computer Engineering (BEng) 
+
+
+
+
             </h6>
 
-            <h6> Bachelor degree in Computer Engineering (BEng) </h6>
-            <h6> Skilled in software development languages including C/C++</h6>
-            <h6> 8+ experience in the E-learning industry </h6>
-            <h6>
-               Hands-on working experience with a variety of E-content
-              development software
+            <h6> Graduated from the University of Concordia in Full Stack Web development</h6>
+            <h6> Hands-on experience with a variety of programming languages and agile software development environments </h6>
+            <h6> 8+ experience in the E-learning industry and working with a variety of E-content development software 
             </h6>
-            <h6> Strong background in graphic and web design</h6>
-            <h6>
-               Creative, detail-oriented, and skilled at meeting deadlines
-            </h6>
+            <h6> Quick learner, detail-oriented, creative, and skilled at meeting deadlines</h6>
+           
             </div>
           </div>
         </div>

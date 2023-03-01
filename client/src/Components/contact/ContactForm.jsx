@@ -27,7 +27,7 @@ const ContactForm = () => {
     <div className="Contact" id="contact">
         <div className="Content">
            <h2>Contact Us</h2>
-           <p>If you've got a project in mind, why not get in touch. Always available for freelancing, let's work together!</p>
+           <p> Always available for freelancing, let's work together!</p>
         </div>
         <div className="Container">
             <div className="ContainerInfo">
