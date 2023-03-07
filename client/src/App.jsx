@@ -9,6 +9,7 @@ import "./app.scss"
 import { useState } from 'react';
 import Menu from './Components/menu/Menu';
 import ContactForm from './Components/contact/ContactForm';
+import ProjectList from './Components/projectList/ProjectList';
 
 
 
@@ -21,7 +22,7 @@ const App=()=> {
       <div className="sections">
         <Intro/>
         <Portfolio/>
-        <Works/>
+        <ProjectList/>
         <Awards/>
         <ContactForm/>
       </div>

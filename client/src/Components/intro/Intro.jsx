@@ -26,10 +26,10 @@ const Intro = () => {
                 <Typical
                   loop={Infinity}
                   steps={[
-                    "About Me",
-                    500,
-                    "About Me",
-                    500,
+                    "Java | Spring Boot | JPA | JDBC | SQL ",
+                    2000,
+                    "CSS | HTML | JavaScript | React.js | Node.js | MongoDB",
+                    2000,
                   ]}
                 />
               </h4>
