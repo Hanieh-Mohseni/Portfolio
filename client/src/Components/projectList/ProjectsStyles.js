@@ -17,7 +17,7 @@ export const ProjectsStyles = styled(motion.div)`
             position: absolute;
             height: 50px;
             width: 50px;
-            background: #fe4370;
+            background: #34deee;
             z-index: 10;
             right: 80px;
             left: auto;

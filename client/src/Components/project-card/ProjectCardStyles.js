@@ -56,8 +56,8 @@ export const ProjectCardStyles = styled.div`
             span{
                 background-color:inherit;
                 font-size:0.9rem;
-                color:#fe4375;
-                border:1px solid #fe4375;
+                color:#34deee;
+                border:1px solid #34deee;
                 display:flex;
                 justify-content:space-between;
                 align-items:center;
@@ -67,7 +67,7 @@ export const ProjectCardStyles = styled.div`
                     margin-right:5px;
                 }
                 &:hover,&:focus{
-                    background-color:#fe4375;
+                    background-color:#34deee;
                     color:#141628;
                 }
                 

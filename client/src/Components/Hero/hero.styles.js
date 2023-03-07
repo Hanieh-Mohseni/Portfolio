@@ -39,7 +39,7 @@ export const ReadMore = styled(motion.button)`
     border:2px solid #fe4370;
     color:#fe4370;
     &:hover,&:focus{
-        background-color: #fe4370;
+        background-color: #34deee;
         color:#fff;
     }
 `

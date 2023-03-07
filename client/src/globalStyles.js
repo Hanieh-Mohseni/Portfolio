@@ -21,7 +21,7 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Poppins', sans-serif;
         font-size: 2.3rem;
         text-align:center;
-        color:#fe4370;
+        color:#34deee;
         @media (max-width:550px){
             font-size: 2rem;
         }
@@ -44,12 +44,12 @@ const GlobalStyle = createGlobalStyle`
         color: #D1D5E8;
     }
     span,h3{
-        color:#fe4370;
+        color:#34deee;
         font-family: 'Reggae One', cursive;
     }
     button{
         display: inline-block;
-        background-color: #fe4370;
+        background-color: #34deee;
         cursor: pointer;
         margin-right: 2rem;
         margin-top: 1rem;

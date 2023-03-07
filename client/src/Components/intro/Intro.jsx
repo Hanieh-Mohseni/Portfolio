@@ -16,42 +16,42 @@ const Intro = () => {
           <h1>Hanieh Mohseni</h1>
           <div className="typicalText">
             <h4>
-            Software Engineer | <span> Full-Stack Java Developer </span>|
-            Software Developer
+              Software Engineer | <span> Full-Stack Java Developer </span>|
+              Software Developer
             </h4>
             <h4>Greater Montreal Metropolitan Area</h4>
 
             <span className="Myskills">
               <h4>
-                <Typical
-                  loop={Infinity}
-                  steps={[
-                    "Java | Spring Boot | JPA | JDBC | SQL ",
-                    2000,
-                    "CSS | HTML | JavaScript | React.js | Node.js | MongoDB",
-                    2000,
-                  ]}
-                />
+                <br />
+                <p> Java | Spring Boot | JPA | JDBC | SQL | MySQL | Junit</p>
+                <p> CSS | HTML | JavaScript | React | Node.js | MongoDB</p>
               </h4>
             </span>
-            <div className="About">
-              About Me
-            </div>
+            <div className="About">About Me</div>
             <div className="Discrip">
-            <h6>
-            Bachelor's degree in Computer Engineering (BEng) 
+              <h6>Bachelor's degree in Computer Engineering (BEng)</h6>
 
-
-
-
-            </h6>
-
-            <h6> Graduated from the University of Concordia in Full Stack Web development</h6>
-            <h6> Hands-on experience with a variety of programming languages and agile software development environments </h6>
-            <h6> 8+ experience in the E-learning industry and working with a variety of E-content development software 
-            </h6>
-            <h6> Quick learner, detail-oriented, creative, and skilled at meeting deadlines</h6>
-           
+              <h6>
+                {" "}
+                Graduated from the University of Concordia in Full Stack Web
+                development
+              </h6>
+              <h6>
+                {" "}
+                Hands-on experience with a variety of programming languages and
+                agile software development environments{" "}
+              </h6>
+              <h6>
+                {" "}
+                8+ experience in the E-learning industry and working with a
+                variety of E-content development software
+              </h6>
+              <h6>
+                {" "}
+                Quick learner, detail-oriented, creative, and skilled at meeting
+                deadlines
+              </h6>
             </div>
           </div>
         </div>
