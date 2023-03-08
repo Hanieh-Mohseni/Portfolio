@@ -77,9 +77,9 @@ export const WebDevelopment = [
   {
     id: 1,
     title1: "Frontend",
-    subtitle1: "HTML, CSS, JavaScript, React.js, TypeScript",
+    subtitle1: "HTML, CSS, JavaScript, React.js",
     title2: "Backend:",
-    subtitle2: "Node.js, Express.js, MongoDB",
+    subtitle2: "Node.js, MongoDB",
   },
 
  

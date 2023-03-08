@@ -1,77 +1,36 @@
-.skills{
+.skills {
+  width: 100%;
+  background-color: #f9f4fb;
+  display: flex;
+  flex-direction: column;
+  margin-right: 200px;
+  margin-top: 200px;
+
+  h1 {
+    color: #ffd126;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
     width: 100%;
-    background-color: #f9f4fb;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-top: 0px;
+    background-color: #fa4f24;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
+  }
 
-    h1{
-        color:#fa4f24;
-        font-size: 24px;
-        margin-bottom: 10px;
-        margin-left: 90%;
-        width: 100%;
-        margin-top: 0;
-        background-color: #fa4f24;
-        -webkit-background-clip: text;
-        -moz-background-clip: text;
-         background-clip: text;
-         color: transparent;
-         text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
-    }
+  h2 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 25px;
+  }
 
-    ul{
-        font-size: 18px;
-        font-weight: 500;
-        margin: 10px;
-        padding: 0;
-        list-style: none;
-        display: flex;
-
-        li{
-            font-size: 16px;
-            font-weight: 400;
-            margin-right: 10px;
-            padding: 7;
-            cursor: pointer;
-
-            &.active{
-                background-color: #ffd126;
-                color:#214150;
-                border-radius: 0px 15px 0 15px ;
-                transition: all .5s ease;
-
-            }
-           
-        }
-    }
-
-    .skilscontainer{
-        width: 80%;
-        margin-top: 20px;
-        display: flex;
-
-        .item{
-          h2{
-              font-size: 16px;
-              font-weight: 500;
-              margin-bottom: 5px;
-              margin-top: 10px;
-          }
-
-          h3{
-              color:#214150;
-            font-size: 16px;
-            font-weight: 300;
-            margin-bottom: 3px;
-
-          }
-        }
-    }
-}
-
-@media screen and (max-width:480px){
-    .i{
-        flex-direction: column;
-    }
+  h3 {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 3px;
+  }
 }

@@ -1,87 +1,26 @@
-import React from "react";
-import SkillsList from "../skillsList/SkillsList";
+import React from 'react';
 import "./resumeSkills.scss"
-import { useState } from "react";
-import { useEffect } from "react";
-import {WebDevelopment,ElearningAndMultimedia,SoftwareDevelopment,Other} from '../../../../../../data'
+ 
+
+const ResumeSkills=()=> {
+  return <div className='skills' id='skills'>
+    
+    <h1>Skills</h1>
+
+    <h2>Software and Web Development</h2>
+    <h3>Java | Spring Boot | JPA | JDBC | JUnit5 | SQL </h3>
+    <h3> CSS | HTML | JavaScript | React.js | Node.js | MongoDB</h3>
 
 
+    <h2>Elearning and Courseware production</h2>
+    
+    <h3>Articulate storyline | Adobe Captivate | Camtasia | Lectora Inspire </h3>
+    <h3>Adobe Photoshop | Adobe Illustrator </h3>
 
-const ResumeSkills = () => {
-  const [selected, setSelected]=useState("WebDevelopment");
-  const [data, setData]=useState([]);
+    <h2>Other</h2>
+    <h3>Microsoft Office (Word, PowerPoint, Excel, Access, Outlook) | Git/GitHub | AWS </h3>
 
-  const list=[
-    {
-      id:"WebDevelopment",
-      title:"Web Development",
-    },
-      {
-        id:"SoftwareDevelopment",
-        title:"Software Development",
-      },
-      {
-        id:"ElearningAndMultimedia",
-        title:"E-learning And Multimedia",
-      },
-      {
-        id:"Other",
-        title:"Other",
-      },
-      
-   ];
-
-
-  useEffect(()=>{
-    switch(selected){
-      case "WebDevelopment":
-      setData(WebDevelopment);
-      break;
-      case "SoftwareDevelopment":
-      setData(SoftwareDevelopment);
-      break;
-      case "ElearningAndMultimedia":
-      setData(ElearningAndMultimedia);
-      break;
-      case "Other":
-      setData(Other);
-      break;
-     
-    } 
-
-  },[selected]);
-
-  return (
-    <div className="skills" id="skills">
-      <h1>Skills</h1>
-      <ul>
-      {list.map((item)=>(
-               <SkillsList title={item.title} active={selected===item.id} setSelected={setSelected} id={item.id}/>
-             ))}
-      </ul>
-      <div className="skilscontainer">
-      {data.map((d)=>(
-              <div className="item">
-                
-                {/* <i class="fa-solid fa-circle-chevron-right"></i> */}
-                <h2>{d.title1}</h2>
-                <h3>{d.subtitle1}</h3>
-                <h2>{d.title2}</h2>
-                <h3>{d.subtitle2}</h3>
-                <h2>{d.title3}</h2>
-                <h3>{d.subtitle3}</h3>
-                <h2>{d.title4}</h2>
-                <h3>{d.subtitle4}</h3>
-                <h2>{d.title5}</h2>
-                <h3>{d.subtitle5}</h3>
-                <h2>{d.title6}</h2>
-                <h3>{d.subtitle6}</h3>
-              </div>
-              ))}
-      </div>
-
-    </div>
-  );
-};
+    </div>;
+}
 
 export default ResumeSkills;

@@ -1,41 +1,36 @@
-.resumeExperience{
-width: 100%;
+.resumeExperience {
+  width: 100%;
+  background-color: #f9f4fb;
+  display: flex;
+  flex-direction: column;
+  margin-right: 200px;
+  margin-top: 200px;
 
-    .partTitr{
-        
-        display: inline-block;
-        font-weight: 700;
-        font-size: 26px;
-        align-items: center;
-        justify-content: space-between;
-        margin-top: 10px;
+  h1 {
+    color: #ffd126;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    margin-top: 0px;
+    background-color: #fa4f24;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
+  }
 
-    }
+  h2 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 25px;
+  }
 
-    .icon{
-        display: inline-block;
-        overflow: hidden;
-        background-color: #ffd126;
-        border-radius: 20px;
-        width: 160px;
-        height: 30px;
-        align-content: right;
-        color: black;
-        font-size: 16px;
-        margin-left: 700px;
-        margin-top: -10px;
-        
-        
-
-        .dateSpan{
-            margin-left: 10px;
-            margin-right: 10px;
-
-align-items: center;  
-justify-content: center;  
-
-           
-        }
-
-    
-}}
+  h3 {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 3px;
+  }
+}

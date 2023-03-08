@@ -66,10 +66,12 @@ export const ProjectCardStyles = styled.div`
                 svg{
                     margin-right:5px;
                 }
+                
                 &:hover,&:focus{
                     background-color:#34deee;
                     color:#141628;
                 }
+               
                 
             }
         }
