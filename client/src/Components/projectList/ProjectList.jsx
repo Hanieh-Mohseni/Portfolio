@@ -25,7 +25,6 @@ const ProjectList = () => {
                 initial='hidden'
                 animate={controls}
             >
-                <h1>Some Projects.</h1>
                 <div className="content-slider">
                         <Swiper
                             spaceBetween={30}
@@ -55,6 +54,8 @@ const ProjectList = () => {
                                         desc={project.desc}
                                         img={project.ss} 
                                         stack={project.stackUsed}   
+                                        source={project.source}
+                                        live={project.live}
                                     />
                                 </SwiperSlide>
                             );

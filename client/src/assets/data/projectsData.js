@@ -9,21 +9,27 @@ const projects = [
         name:'Bank App',
         desc:'full-stack virtual banking Application, including account balance, Transactions and user information,  and the ability to transfer funds between accounts, with login and authentication protocols.',
         ss: Garderie,
-        stackUsed:['Java', 'SpringBoot', 'JPA', 'lombok' , 'SQL', 'MySQL', 'React', 'CSS', 'HTML']
+        stackUsed:['Java', 'SpringBoot', 'JPA', 'lombok' , 'SQL', 'MySQL', 'React', 'CSS', 'HTML'],
+        source:'https://github.com/Hanieh-Mohseni/BankApp',
+        live:'http://bankappfontend.s3-website.us-east-2.amazonaws.com'
     },
     {
         id:1,
         name:'Garderie App',
         desc:'Kindergarten comprehensive registration full-stack portal.',
         ss:BankApp,
-        stackUsed:['Java', 'SpringBoot', 'JDBC', 'lombok' , 'SQL', 'MySQL', 'React', 'CSS', 'HTML']
+        stackUsed:['Java', 'SpringBoot', 'JDBC', 'lombok' , 'SQL', 'MySQL', 'React', 'CSS', 'HTML'],
+        source:'https://github.com/Hanieh-Mohseni/garderie-Xin-Hani',
+        live:''
     },
     {
         id:2,
         name:'Nations Recipe App',
         desc:'A full-stack app with user login and authentication protocols to search different recipes & add to or remove favorite foods from their profiles',
         ss:NationRecipe,
-        stackUsed:['React','Node.js','MongoDB','SCSS', 'HTML']
+        stackUsed:['React','Node.js','MongoDB','SCSS', 'HTML'],
+        source:'https://github.com/Hanieh-Mohseni/nationsRecipeApp',
+        live:'https://www.youtube.com/watch?v=ZZbwz56DGe0'
     },
   
     {
@@ -31,7 +37,9 @@ const projects = [
         name:'Nyan Shark',
         desc:' Nyan Shark game',
         ss:NyanShark,
-        stackUsed:['HTML','CSS','Javascript']
+        stackUsed:['HTML','CSS','Javascript'],
+        source:'https://github.com/Hanieh-Mohseni/nationsRecipeApp',
+        live:'https://nyanshark.netlify.app/'
     },
 ]
 

@@ -3,8 +3,10 @@ import {ProjectCardStyles } from './ProjectCardStyles'
 import {MdLanguage} from 'react-icons/md'
 import {AiFillGithub} from 'react-icons/ai'
 
-const ProjectCard = ({title,desc,img,stack}) => {
-    return (
+
+const ProjectCard = ({title,desc,img,stack,source,live}) => {
+
+      return (
         <ProjectCardStyles>
                 <div className="img-container">
                     <img src={img} alt="" />
@@ -16,8 +18,8 @@ const ProjectCard = ({title,desc,img,stack}) => {
                     {stack.map((el,index) => <span key={index}>{el}</span>)}
                 </div>
                 <div className="links">
-                    <span><MdLanguage /> Live</span>
-                    <span><AiFillGithub /> Source</span>
+                    <a href={live}><span ><MdLanguage />Live</span></a>
+                    <a href={source}> <span ><AiFillGithub /> Source</span></a>
                 </div>
             </div>
         </ProjectCardStyles>
