@@ -38,7 +38,7 @@ const projects = [
         desc:' Nyan Shark game',
         ss:NyanShark,
         stackUsed:['HTML','CSS','Javascript'],
-        source:'https://github.com/Hanieh-Mohseni/nationsRecipeApp',
+        source:'https://nyanshark.netlify.app/',
         live:'https://nyanshark.netlify.app/'
     },
 ]

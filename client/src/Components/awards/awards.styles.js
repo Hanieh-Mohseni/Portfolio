@@ -29,7 +29,7 @@ export const AwardsStyles = styled(motion.div)`
                 margin-right: 1.6rem;
             }
             .sub-head{
-                color: #fff;
+                color: black;
                 font-size: 1.2rem;
             }
         }
