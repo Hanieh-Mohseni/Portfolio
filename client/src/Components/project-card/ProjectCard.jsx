@@ -13,8 +13,8 @@ const ProjectCard = ({title,desc,img,stack,source,live}) => {
                     <img src={img} alt="" />
                 </div>
             <div className="content">
-                <h3>{title}</h3>
-                <p>{desc}</p>
+                <Myh3>{title}</Myh3>
+                <Desp>{desc}</Desp>
                 <div className="tech-used">
                     {stack.map((el,index) => <span key={index}>{el}</span>)}
                 </div>
@@ -30,5 +30,13 @@ const Mya= styled.a`
  text-decoration: none;
  `;
 
+const Desp = styled.p`
+color:gray;
+    
+`;
 
+const Myh3 = styled.h3`
+color:gray;
+    
+`;
 export default ProjectCard

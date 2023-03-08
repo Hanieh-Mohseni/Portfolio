@@ -27,3 +27,6 @@ client/.env
 client/node_modules
 server/.env
 server/node_modules
+
+**/src/main/resources/application.properties
+**/src/test/resources/application.properties
