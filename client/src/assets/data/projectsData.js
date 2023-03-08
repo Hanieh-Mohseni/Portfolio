@@ -7,9 +7,9 @@ const projects = [
     {
         id:1,
         name:'Bank App',
-        desc:'full-stack virtual banking Application, including account balance, Transactions and user information,  and the ability to transfer funds between accounts, with login and authentication protocols.',
+        desc:'A full-stack virtual banking Application, including account balance, Transactions and user information,  and the ability to transfer funds between accounts, with login and authentication protocols.',
         ss: Garderie,
-        stackUsed:['Java', 'SpringBoot', 'JPA', 'lombok' , 'SQL', 'MySQL', 'React', 'CSS', 'HTML', ' JWT', 'Authentication', 'Authorisation', 'Java Security'],
+        stackUsed:['Java', 'SpringBoot', 'JPA', 'Lombok' , 'SQL', 'MySQL', 'React', 'CSS', 'HTML', ' JWT', 'Authentication', 'Authorisation', 'Java Security'],
         source:'https://github.com/Hanieh-Mohseni/BankApp',
         live:'http://bankappfontend.s3-website.us-east-2.amazonaws.com'
     },

@@ -1,6 +1,7 @@
 import React from "react";
 import "./intro.scss";
 import Typical from "react-typical";
+import styled from "styled-components";
 
 const Intro = () => {
   return (
@@ -24,8 +25,9 @@ const Intro = () => {
             <span className="Myskills">
               <h4>
                 <br />
-                <p> Java | Spring Boot | JPA | JDBC | SQL | MySQL | Junit</p>
-                <p> CSS | HTML | JavaScript | React | Node.js | MongoDB</p>
+                <Myp> Java | React | Spring Boot | JPA | JDBC | SQL | Junit5 | C/C++ </Myp>
+                <Myp> Spring Security | JWT  Authentication & Authorisation </Myp>
+                <Myp> MySQL | MongoDB | Node.js | JavaScript | CSS/SCSS  | HTML  </Myp>
               </h4>
             </span>
             <div className="About">About Me</div>
@@ -64,4 +66,10 @@ const Intro = () => {
   );
 };
 
+const Myp = styled.p`
+  
+font-weight: normal;
+font-size: 16px;
+margin-top: 5px;
+`;
 export default Intro;

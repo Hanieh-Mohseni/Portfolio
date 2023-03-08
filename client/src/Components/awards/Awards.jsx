@@ -23,7 +23,7 @@ const Awards = () => {
             <div className="title" variants={textReveal}>
               <motion.div className="line" variants={lineAnim}></motion.div>
               <p className="sub-head">
-                Winner of Gold Medal, National Chess Championship
+              Individual Gold Medal winner, National Chess Championship
               </p>
             </div>
             <Hide>
@@ -38,7 +38,7 @@ const Awards = () => {
             <div className="title" variants={textReveal}>
               <motion.div className="line" variants={lineAnim}></motion.div>
               <p className="sub-head">
-              Winner of Silver Medal, Provincial Student Chess Tournament
+              Individual Bronze medal winner winner of Silver Medal, Provincial Student Chess Tournament
               </p>
             </div>
             <Hide>
@@ -48,12 +48,47 @@ const Awards = () => {
               </motion.h5>
             </Hide>
           </div>
+          
 
           <div className="intro">
             <div className="title" variants={textReveal}>
               <motion.div className="line" variants={lineAnim}></motion.div>
               <p className="sub-head">
-              Winner of Silver Medal, Provincial Student Chess Tournament</p>
+              Team Silver medal winner, Provincial Student Chess Tournament
+              </p>
+            </div>
+            <Hide>
+              <motion.h5 variants={textReveal}>
+                Issued by Chess Board of Isfahan, Iran{" "}
+                Between students of all the universities of Isfahan province. Iran, Kashan.{" "}
+              </motion.h5>
+            </Hide>
+          </div>
+
+
+          <div className="intro">
+            <div className="title" variants={textReveal}>
+              <motion.div className="line" variants={lineAnim}></motion.div>
+              <p className="sub-head">
+              Team Bronze medal winner, Provincial Student Chess Tournament
+              </p>
+            </div>
+            <Hide>
+              <motion.h5 variants={textReveal}>
+                Issued by Chess Board of Isfahan, Iran{" "}
+                Between students of all the universities of Isfahan province. Iran, Kashan.{" "}
+              </motion.h5>
+            </Hide>
+          </div>
+
+
+
+
+          <div className="intro">
+            <div className="title" variants={textReveal}>
+              <motion.div className="line" variants={lineAnim}></motion.div>
+              <p className="sub-head">
+              Individual silver medal winner, Provincial Student Chess Tournament</p>
             </div>
             <Hide>
               <motion.h5 variants={textReveal}>

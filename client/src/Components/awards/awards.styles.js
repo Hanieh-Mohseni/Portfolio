@@ -2,12 +2,12 @@ import { motion } from "framer-motion";
 import styled from "styled-components";
 
 export const AwardsStyles = styled(motion.div)`
-    padding:1rem 3rem;
+    padding:1rem 1rem;
     min-height: 80vh;
     overflow: hidden;
     .content{
         display: flex;
-        margin-top: 6rem;
+        margin-top: 3rem;
         align-items: flex-start;
         @media (max-width:600px){
             flex-direction: column; 
@@ -16,17 +16,17 @@ export const AwardsStyles = styled(motion.div)`
     .left{
         flex:50;
         .intro,.skills{
-            margin-bottom: 3rem;
+            margin-bottom: 0.5rem;
         }
         .title{
             display: flex;
-            align-items: baseline;
+            align-items:baseline;
             margin-bottom: 1rem;
             .line{
                 height:5px;
                 width:1.6rem;
                 background-color: #34deee;
-                margin-right: 1.6rem;
+                margin-right: 1.3rem;
             }
             .sub-head{
                 color: black;
