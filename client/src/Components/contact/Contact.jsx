@@ -44,7 +44,7 @@ import { useState } from 'react';
                 <div className="c-icon">
                   <i class="fa-solid fa-location-dot"></i>
                 </div>
-                Brossard, QC
+                Montreal, QC
               </div>
             </div>
           </div>
