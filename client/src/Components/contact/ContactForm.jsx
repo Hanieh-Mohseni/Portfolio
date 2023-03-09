@@ -35,7 +35,7 @@ const ContactForm = () => {
                     <div className="Icon"> <i class="fa-solid fa-location-dot"></i></div>
                     <div className="text">
                         <h3>Address</h3>
-                        <p>Brossard, QC</p>
+                        <p>Montreal, QC</p>
                     </div>
                 </div>
 

@@ -24,7 +24,7 @@ const ResumeCertifications = () => {
 
 
 
-      <h2> Cours de français - FIA330-4AD, Jul 2021</h2>
+      <h2> langue française - FIA330-4AD, Jul 2021</h2>
       <h3>
         Ministère de l'Immigration, de la Francisation et de l'Intégration
       </h3>

@@ -23,7 +23,7 @@ const Awards = () => {
             <div className="title" variants={textReveal}>
               <motion.div className="line" variants={lineAnim}></motion.div>
               <p className="sub-head">
-              Individual Gold Medal winner, National Chess Championship
+              Gold Medal winner, National Chess Championship
               </p>
             </div>
             <Hide>
@@ -38,7 +38,7 @@ const Awards = () => {
             <div className="title" variants={textReveal}>
               <motion.div className="line" variants={lineAnim}></motion.div>
               <p className="sub-head">
-              Individual Bronze medal winner winner of Silver Medal, Provincial Student Chess Tournament
+              Silver Medal Winner, Provincial Student Chess Tournament
               </p>
             </div>
             <Hide>
@@ -54,7 +54,7 @@ const Awards = () => {
             <div className="title" variants={textReveal}>
               <motion.div className="line" variants={lineAnim}></motion.div>
               <p className="sub-head">
-              Team Silver medal winner, Provincial Student Chess Tournament
+              Bronze Medal Winner, Provincial Student Chess Tournament
               </p>
             </div>
             <Hide>
@@ -70,7 +70,7 @@ const Awards = () => {
             <div className="title" variants={textReveal}>
               <motion.div className="line" variants={lineAnim}></motion.div>
               <p className="sub-head">
-              Team Bronze medal winner, Provincial Student Chess Tournament
+              Silver Medal winner, Provincial Student Chess Tournament
               </p>
             </div>
             <Hide>

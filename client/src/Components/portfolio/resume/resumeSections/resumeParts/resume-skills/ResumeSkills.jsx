@@ -8,9 +8,9 @@ const ResumeSkills=()=> {
     <h1>Skills</h1>
 
     <h2>Software and Web Development</h2>
-    <h3>Java | Spring Boot | JPA | JDBC | JUnit5 | SQL | C/C++ </h3>
-    <h3> JWT | Authentication | Authorisation | Java Security</h3>
-    <h3> CSS | HTML | JavaScript | React.js | Node.js | MongoDB</h3>
+    <h3>Java | React.js | Spring Boot | JPA | JDBC | JUnit5 | SQL  </h3>
+    <h3>C/C++ | JWT | Authentication | Authorisation | Java Security</h3>
+    <h3>JavaScript | Node.js | MongoDB | CSS/SCSS | HTML </h3>
 
 
     <h2>Elearning and Courseware production</h2>
