@@ -88,7 +88,7 @@ const Awards = () => {
             <div className="title" variants={textReveal}>
               <motion.div className="line" variants={lineAnim}></motion.div>
               <p className="sub-head">
-              Individual silver medal winner, Provincial Student Chess Tournament</p>
+              Silver Medal Winner, Provincial Student Chess Tournament</p>
             </div>
             <Hide>
               <motion.h5 variants={textReveal}>

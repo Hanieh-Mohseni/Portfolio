@@ -26,7 +26,7 @@ const ContactForm = () => {
   return (
     <div className="Contact" id="contact">
         <div className="Content">
-           <h2>Contact Us</h2>
+           <h2>Contact Me</h2>
            <p> Always available for freelancing, let's work together!</p>
         </div>
         <div className="Container">
