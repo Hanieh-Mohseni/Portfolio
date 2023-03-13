@@ -19,7 +19,7 @@ const ResumeSkills=()=> {
     <h3>Adobe Photoshop | Adobe Illustrator </h3>
 
     <h2>Other</h2>
-    <h3>Microsoft Office (Word, PowerPoint, Excel, Access, Outlook) | Git/GitHub | AWS </h3>
+    <h3>Microsoft Office (Word, PowerPoint, Excel, Access, Outlook) | Git/GitHub | AWS (RDS, S3, EC2) </h3>
 
     </div>;
 }

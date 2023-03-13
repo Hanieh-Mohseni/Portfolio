@@ -26,8 +26,8 @@ const Intro = () => {
               <h4>
                 <br />
                 <Myp> Java | React | Spring Boot | JPA | JDBC | SQL | Junit5 | C/C++ </Myp>
-                <Myp> Spring Security | JWT  Authentication & Authorisation </Myp>
-                <Myp> MySQL | MongoDB | Node.js | JavaScript | CSS/SCSS  | HTML  </Myp>
+                <Myp> Spring Security | JWT  Authentication & Authorisation | MySQL  </Myp>
+                <Myp> AWS (RDS, S3, EC2) | MongoDB | Node.js | JavaScript | CSS| HTML  </Myp>
               </h4>
             </span>
             <div className="About">About Me</div>
