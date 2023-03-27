@@ -21,7 +21,7 @@ const SideBar = () => {
           <span className="icon">
             <i class="fas fa-history"></i>
           </span>
-          <a href="#resumeExperience">Experiance</a>
+          <a href="#resumeExperience">Experience</a>
         </div>
         <div className="item">
           <span className="icon">
